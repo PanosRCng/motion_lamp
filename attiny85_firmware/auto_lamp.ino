@@ -139,7 +139,7 @@ void setup()
   pinMode(PIR_PIN, INPUT);
   pinMode(LED_PIN, OUTPUT);
 
-  setup_external_interupt();
+  setup_external_interrupt();
 
   // ~ 10s
   setup_watchdog(9);                 
